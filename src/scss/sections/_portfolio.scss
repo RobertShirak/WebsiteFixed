@@ -1,0 +1,202 @@
+//
+// Portfolio section styling
+//
+
+#faq {
+    // background-image: url("/assets/img/Razer.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+
+    .faq-item {
+        max-width: 26rem;
+        margin-left: auto;
+        margin-right: auto;
+
+
+        .faq-link {
+            position: relative;
+            display: block;
+            margin: 0 auto;
+
+            .faq-hover {
+                display: flex;
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                background: black;
+                align-items: center;
+                justify-content: center;
+                opacity: 0;
+                transition: opacity ease-in-out 1.50s;
+                background-image: url("/assets/img/isthisfair.png");
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: contain;
+
+                .faq-hover-content {
+                    // font-size: 1.25rem;
+                    background-image: url("/assets/img/isthisfair.png");
+                }
+            }
+
+            &:hover {
+                .faq-hover {
+                    opacity: 1;
+                    
+                }
+            }
+        }
+
+        .faq-caption {
+            padding: 1.5rem;
+            text-align: center;
+            background-color: black;
+            
+            
+
+                
+
+            .faq-caption-heading {
+                font-size: 1.5rem;
+                font-family: $headings-font-family;
+                font-weight: $headings-font-weight;
+                margin-bottom: 0;
+                color: white;
+                letter-spacing: $headings-letter-spacing;
+            }
+
+            .faq-caption-subheading {
+                font-style: italic;
+                font-family: $subheadings-font-family;
+                color: white;
+            }
+
+
+           
+        }
+    }
+}
+
+.faq-modal {
+    .modal-dialog {
+        margin: 0.25rem;
+        max-width: 100vw;
+        // width: 100vw;
+        text-align: center;
+        
+       
+    }
+
+    .modal-content {
+        // padding-top: 6rem;
+        // padding-bottom: 6rem;
+        // text-align: center;
+        // padding-top: 1rem;
+        // padding-bottom: 1rem;
+        text-align: center center;
+        max-width: 100vw;
+        max-height: 100vh;
+        // background-image: url('/assets/img/Previewpic.png');
+       
+        .container-one {
+                background-image: url('/assets/img/itswhat we do.png');
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover ;
+                height: 100%;
+                color: white;
+        }
+      
+
+        .container-two {
+            background-image: url('/assets/img/itswhat we do.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover ;
+            height: 100%;
+            color: white;
+
+            .third-modal {
+                display: flex;
+            }
+    }
+
+    .container-three {
+        background-image: url('/assets/img/itswhat we do.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover ;
+        height: 100%;
+        color: white;
+}
+    .container-four {
+    background-image: url('/assets/img/itswhat we do.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    height: 100%;
+    color: white;
+}    
+
+    .container-five {
+    background-image: url('/assets/img/itswhat we do.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    height: 100%;
+    color: white;
+}
+
+    .container-six {
+    background-image: url('/assets/img/itswhat we do.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    height: 100%;
+    color: white;
+}
+
+        h2 {
+            font-size: 3rem;
+            line-height: 3rem;
+            
+        }
+
+        p.item-intro {
+            font-style: italic;
+            margin-bottom: 2rem;
+            font-family: $subheadings-font-family;
+        }
+
+        p {
+            margin-bottom: 2rem;
+        }
+
+        ul.list-inline {
+            margin-bottom: 2rem;
+        }
+
+        img {
+            margin-bottom: 2rem;
+        }
+    }
+
+    .close-modal {
+        position: center;
+        top: 1.5rem;
+        right: 1.5rem;
+        width: 3rem;
+        height: 3rem;
+        cursor: pointer;
+        background-color: transparent;
+
+        &:hover {
+            opacity: 0.3;
+        }
+    }
+}
+
